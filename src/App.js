@@ -21,6 +21,7 @@ function App() {
         if(todo.id === editId){
           todo.text = text
         }
+        return;
       })
     }
     else if (text) {
